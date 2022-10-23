@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <form action="/action_page.php">
+        <table>
+            <tr></tr>
+            <th colspan="2">Registration Form</th>
+            <tr>
+                <th><label for="sname">Student name</label></th>
+                <td>
+                    <input type="text" id="sname" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="fname">Father's name</label>
+                </th>
+                <td>
+                    <input type="text" id="fname" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="mname">Mother's name</label>
+                </th>
+                <td>
+                    <input type="text" id="mname" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="date">Date</label>
+                </th>
+                <td>
+                    <input type="date" id="date" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="gender">Gender</label>
+                </th>
+                <td>
+                    <label for="gender">male</label>
+                    <input type="radio" id="gender" />
+                    <label for="gender">female</label>
+                    <input type="radio" id="gender" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">Email id</label>
+                </th>
+                <td>
+                    <input type="email" id="email" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="mnumber">Mobile number</label>
+                </th>
+                <td>
+                    <input type="number" id="mnumber" />
+                </td>
+            </tr>
+            <tr>
+                <th text-align="center">
+                    <label for="address">Address</label>
+                </th>
+                <td>
+                    <textarea id="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="state">State</label>
+                </th>
+                <td>
+                    <input type="text" id="state" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="city">City</label>
+                </th>
+                <td>
+                    <input type="text" id="city" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" onclick="action">submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

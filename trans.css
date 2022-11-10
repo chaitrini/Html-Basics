@@ -1,0 +1,15 @@
+body {
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+}
+
+.wrapper {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+img {
+    transform: rotate3d(10 10);
+}

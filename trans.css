@@ -1,10 +1,20 @@
 body {
-    background-color: yellow;
-    text-align: center;
+    background-color: black;
+}
+
+.wrapper {
+    top: 50%;
+    left: 50%;
+    position: absolute;
 }
 
 img {
     width: 100px;
     height: 100px;
-    transform: translateX(-50px);
+}
+
+.wrapper:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+    background-color: aliceblue;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: whitesmoke;
 }
 
 .header {
@@ -20,7 +20,8 @@ body {
 }
 
 .but a {
-    color: goldenrod;
+    color: black;
+    font-weight: 600;
 }
 
 .dropdown {
@@ -28,12 +29,18 @@ body {
     background-color: white;
     color: black;
     position: absolute;
-    max-width: 90px;
+    max-width: 110px;
+    padding: 2%;
 }
 
 .dropdown a {
     display: inline;
     text-decoration: none;
+    text-align: left;
+    padding: 2%;
+    color: black;
+    font-weight: 500;
+    padding-left: 0%;
 }
 
 .dropdown a:hover {
@@ -45,6 +52,7 @@ body {
 }
 
 .menu:hover .but {
+    color: goldenrod;
     background-color: transparent;
 }
 
@@ -59,11 +67,11 @@ body {
     background-size: 100%;
     height: 50vh;
     width: 99vw;
-    font-size: large;
-    font-weight: bold;
+    font-size: x-large;
+    font-weight: 400;
     padding-left: 0%;
     color: aliceblue;
-    font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "jost", sans-serif;
 }
 
 .header a {

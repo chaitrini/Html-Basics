@@ -4,19 +4,25 @@ body {
 
 .header {
     padding-top: 5%;
-    display: inline-block;
     height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header a {
+    display: inline;
 }
 
 .menu {
     text-decoration: none;
+    margin-left: 0%;
 }
 
 .but {
     margin-bottom: 7px;
-    display: inline-block;
     background-color: transparent;
     border: none;
+    max-width: 10%;
 }
 
 .but a {
@@ -54,6 +60,7 @@ body {
 .menu:hover .but {
     color: goldenrod;
     background-color: transparent;
+    width: 20px;
 }
 
 .wrapper {
